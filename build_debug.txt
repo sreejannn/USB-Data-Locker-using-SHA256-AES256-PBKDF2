@@ -1,0 +1,75 @@
+154 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.9
+154 INFO: Python: 3.11.2
+162 INFO: Platform: Windows-10-10.0.26200-SP0
+162 INFO: Python environment: C:\Users\manda\Desktop\Cryptlock\.venv
+162 INFO: wrote C:\Users\manda\Desktop\Cryptlock\CryptLock.spec
+175 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\manda\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip',
+ 'C:\\Users\\manda\\AppData\\Local\\Programs\\Python\\Python311\\DLLs',
+ 'C:\\Users\\manda\\AppData\\Local\\Programs\\Python\\Python311\\Lib',
+ 'C:\\Users\\manda\\AppData\\Local\\Programs\\Python\\Python311',
+ 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv',
+ 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages',
+ 'C:\\Users\\manda\\Desktop\\Cryptlock']
+444 INFO: checking Analysis
+444 INFO: Building Analysis because Analysis-00.toc is non existent
+444 INFO: Looking for Python shared library...
+447 INFO: Using Python shared library: C:\Users\manda\AppData\Local\Programs\Python\Python311\python311.dll
+447 INFO: Running Analysis Analysis-00.toc
+447 INFO: Target bytecode optimization level: 0
+447 INFO: Initializing module dependency graph...
+458 INFO: Initializing module graph hook caches...
+491 INFO: Analyzing modules for base_library.zip ...
+1525 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+1657 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3241 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5711 INFO: Caching module dependency graph...
+5740 INFO: Analyzing C:\Users\manda\Desktop\Cryptlock\main_app.py
+5747 INFO: Processing standard module hook 'hook-PyQt5.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6338 INFO: Processing standard module hook 'hook-PyQt5.QtWidgets.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7042 INFO: Processing standard module hook 'hook-PyQt5.QtCore.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7732 INFO: Processing standard module hook 'hook-PyQt5.QtGui.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8125 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9099 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+9191 INFO: Processing module hooks (post-graph stage)...
+9194 WARNING: Hidden import "sip" not found!
+9245 INFO: Performing binary vs. data reclassification (105 entries)
+9935 INFO: Looking for ctypes DLLs
+9942 INFO: Analyzing run-time hooks ...
+9943 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9946 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+9946 INFO: Including run-time hook 'pyi_rth_pyqt5.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9948 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+9950 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9953 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9958 INFO: Creating base_library.zip...
+9972 INFO: Looking for dynamic libraries
+10092 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin']
+10092 INFO: Extra DLL search directories (PATH): ['C:\\Users\\manda\\Desktop\\Cryptlock\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin']
+11368 INFO: Warnings written to C:\Users\manda\Desktop\Cryptlock\build\CryptLock\warn-CryptLock.txt
+11383 INFO: Graph cross-reference written to C:\Users\manda\Desktop\Cryptlock\build\CryptLock\xref-CryptLock.html
+11399 INFO: checking PYZ
+11399 INFO: Building PYZ because PYZ-00.toc is non existent
+11399 INFO: Building PYZ (ZlibArchive) C:\Users\manda\Desktop\Cryptlock\build\CryptLock\PYZ-00.pyz
+11507 INFO: Building PYZ (ZlibArchive) C:\Users\manda\Desktop\Cryptlock\build\CryptLock\PYZ-00.pyz completed successfully.
+11530 INFO: checking PKG
+11530 INFO: Building PKG because PKG-00.toc is non existent
+11530 INFO: Building PKG (CArchive) CryptLock.pkg
+11553 INFO: Building PKG (CArchive) CryptLock.pkg completed successfully.
+11554 INFO: Bootloader C:\Users\manda\Desktop\Cryptlock\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+11554 INFO: checking EXE
+11554 INFO: Building EXE because EXE-00.toc is non existent
+11554 INFO: Building EXE from EXE-00.toc
+11554 INFO: Copying bootloader EXE to C:\Users\manda\Desktop\Cryptlock\build\CryptLock\CryptLock.exe
+11651 INFO: Copying icon to EXE
+11710 INFO: Copying 0 resources to EXE
+11710 INFO: Embedding manifest in EXE
+12203 INFO: Appending PKG archive to EXE
+12249 INFO: Fixing EXE headers
+12509 INFO: Building EXE from EXE-00.toc completed successfully.
+12511 INFO: checking COLLECT
+12511 INFO: Building COLLECT because COLLECT-00.toc is non existent
+12511 INFO: Building COLLECT COLLECT-00.toc
+12900 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+12903 INFO: Build complete! The results are available in: C:\Users\manda\Desktop\Cryptlock\dist
